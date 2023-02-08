@@ -1,0 +1,270 @@
+Traceback (most recent call last):
+  File "/Users/yipengm/PycharmProjects/AMZ_LIB/webfront_collect_input.py", line 194, in <module>
+    driver.get(url)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: chrome=96.0.4664.110)
+
+Traceback (most recent call last):
+  File "/Users/yipengm/PycharmProjects/AMZ_LIB/webfront_collect_input.py", line 194, in <module>
+    driver.get(url)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=96.0.4664.110)
+
+Traceback (most recent call last):
+  File "/Users/yipengm/PycharmProjects/AMZ_LIB/webfront_collect_input.py", line 157, in <module>
+    ssh.connect(machinename, username=user,password=pw)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/paramiko/client.py", line 349, in connect
+    retry_on_signal(lambda: sock.connect(addr))
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/paramiko/util.py", line 283, in retry_on_signal
+    return function()
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/paramiko/client.py", line 349, in <lambda>
+    retry_on_signal(lambda: sock.connect(addr))
+OSError: [Errno 51] Network is unreachable
+Traceback (most recent call last):
+  File "/Users/yipengm/PycharmProjects/AMZ_LIB/webfront_collect_input.py", line 194, in <module>
+    driver.get(url)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 299.642
+  (Session info: chrome=96.0.4664.110)
+
+Traceback (most recent call last):
+  File "/Users/yipengm/PycharmProjects/AMZ_LIB/webfront_collect_input.py", line 194, in <module>
+    driver.get(url)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 299.588
+  (Session info: chrome=96.0.4664.110)
+
+Traceback (most recent call last):
+  File "/Users/yipengm/PycharmProjects/AMZ_LIB/webfront_collect_input.py", line 194, in <module>
+    driver.get(url)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: chrome=96.0.4664.110)
+
+Traceback (most recent call last):
+  File "/Users/yipengm/PycharmProjects/AMZ_LIB/webfront_collect_input.py", line 194, in <module>
+    driver.get(url)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 299.601
+  (Session info: chrome=96.0.4664.110)
+
+Traceback (most recent call last):
+  File "/Users/yipengm/PycharmProjects/AMZ_LIB/webfront_collect_input.py", line 194, in <module>
+    driver.get(url)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 299.583
+  (Session info: chrome=96.0.4664.110)
+
+Traceback (most recent call last):
+  File "/Users/yipengm/PycharmProjects/AMZ_LIB/webfront_collect_input.py", line 194, in <module>
+    driver.get(url)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 299.607
+  (Session info: chrome=96.0.4664.110)
+
+Socket exception: Operation timed out (60)
+Traceback (most recent call last):
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/paramiko/sftp_client.py", line 852, in _read_response
+    t, data = self._read_packet()
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/paramiko/sftp.py", line 201, in _read_packet
+    x = self._read_all(4)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/paramiko/sftp.py", line 188, in _read_all
+    raise EOFError()
+EOFError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yipengm/PycharmProjects/AMZ_LIB/webfront_collect_input.py", line 240, in <module>
+    mkdir_p(sftp,remote_path)
+  File "/Users/yipengm/PycharmProjects/AMZ_LIB/webfront_collect_input.py", line 25, in mkdir_p
+    sftp.chdir(remote_directory) # sub-directory exists
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/paramiko/sftp_client.py", line 659, in chdir
+    if not stat.S_ISDIR(self.stat(path).st_mode):
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/paramiko/sftp_client.py", line 493, in stat
+    t, msg = self._request(CMD_STAT, path)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/paramiko/sftp_client.py", line 822, in _request
+    return self._read_response(num)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/paramiko/sftp_client.py", line 854, in _read_response
+    raise SSHException("Server connection dropped: {}".format(e))
+paramiko.ssh_exception.SSHException: Server connection dropped: 
+Traceback (most recent call last):
+  File "/Users/yipengm/PycharmProjects/AMZ_LIB/webfront_collect_input.py", line 194, in <module>
+    driver.get(url)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 299.629
+  (Session info: chrome=96.0.4664.110)
+
+Traceback (most recent call last):
+  File "/Users/yipengm/PycharmProjects/AMZ_LIB/webfront_collect_input.py", line 194, in <module>
+    driver.get(url)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 299.535
+  (Session info: chrome=96.0.4664.110)
+
+Traceback (most recent call last):
+  File "/Users/yipengm/PycharmProjects/AMZ_LIB/webfront_collect_input.py", line 194, in <module>
+    driver.get(url)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: chrome=96.0.4664.110)
+
+Traceback (most recent call last):
+  File "/Users/yipengm/PycharmProjects/AMZ_LIB/webfront_collect_input.py", line 194, in <module>
+    driver.get(url)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 299.050
+  (Session info: chrome=96.0.4664.110)
+
+Traceback (most recent call last):
+  File "/Users/yipengm/PycharmProjects/AMZ_LIB/webfront_collect_input.py", line 194, in <module>
+    driver.get(url)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 299.709
+  (Session info: chrome=97.0.4692.71)
+
+Traceback (most recent call last):
+  File "/Users/yipengm/PycharmProjects/AMZ_LIB/webfront_collect_input.py", line 194, in <module>
+    driver.get(url)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=97.0.4692.71)
+
+Traceback (most recent call last):
+  File "/Users/yipengm/PycharmProjects/AMZ_LIB/webfront_collect_input.py", line 218, in <module>
+    driver.get(url)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_CONNECTION_CLOSED
+  (Session info: chrome=97.0.4692.71)
+
+Traceback (most recent call last):
+  File "/Users/yipengm/PycharmProjects/AMZ_LIB/webfront_collect_input.py", line 218, in <module>
+    driver.get(url)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: disconnected: Unable to receive message from renderer
+  (Session info: chrome=97.0.4692.71)
+
+Socket exception: Connection reset by peer (54)
+Traceback (most recent call last):
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/paramiko/sftp_client.py", line 852, in _read_response
+    t, data = self._read_packet()
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/paramiko/sftp.py", line 201, in _read_packet
+    x = self._read_all(4)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/paramiko/sftp.py", line 188, in _read_all
+    raise EOFError()
+EOFError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yipengm/PycharmProjects/AMZ_LIB/webfront_collect_input.py", line 264, in <module>
+    mkdir_p(sftp,remote_path)
+  File "/Users/yipengm/PycharmProjects/AMZ_LIB/webfront_collect_input.py", line 25, in mkdir_p
+    sftp.chdir(remote_directory) # sub-directory exists
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/paramiko/sftp_client.py", line 659, in chdir
+    if not stat.S_ISDIR(self.stat(path).st_mode):
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/paramiko/sftp_client.py", line 493, in stat
+    t, msg = self._request(CMD_STAT, path)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/paramiko/sftp_client.py", line 822, in _request
+    return self._read_response(num)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/paramiko/sftp_client.py", line 854, in _read_response
+    raise SSHException("Server connection dropped: {}".format(e))
+paramiko.ssh_exception.SSHException: Server connection dropped: 
+Traceback (most recent call last):
+  File "/Users/yipengm/PycharmProjects/AMZ_LIB/webfront_collect_input.py", line 218, in <module>
+    driver.get(url)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/yipengm/miniconda3/envs/soup3/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 299.641
+  (Session info: chrome=97.0.4692.71)
+
